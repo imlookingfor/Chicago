@@ -1,5 +1,5 @@
 @media (max-width: 600px) {
-  section {
+  main {
     width: 90%;
     margin: 0 auto;
   }
@@ -99,6 +99,16 @@
 }
 
 
+
+html {
+  line-height: 1.5;
+  color: black;
+  background: black;
+  height: 100vh; 
+
+}
+
+
 body {
   display: flex;
   justify-content: center;
@@ -114,15 +124,6 @@ h1 {
   font-size: 5rem;
   margin: 0.1rem 2rem;
   padding: 0rem;
-
-}
-
-
-html {
-  line-height: 1.5;
-  color: black;
-  background: black;
-  height: 100vh; 
 
 }
 
