@@ -3,7 +3,7 @@
     width: 80%;
   }
   
-  .header {
+  header {
     font-size: 1.2rem;
   }
 
@@ -124,8 +124,8 @@ header {
 
 
 header img {
-  width: 300px;
-  margin: 5rem;
+  width: 20rem;
+  margin: 3rem;
 }
 
 
