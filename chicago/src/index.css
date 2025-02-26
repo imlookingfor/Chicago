@@ -1,3 +1,15 @@
+@media (max-width: 600px) {
+  section {
+    width: 80%;
+  }
+  
+  .header {
+    font-size: 1.2rem;
+  }
+
+}
+
+
 @font-face {
   font-family: 'YUniverse-B';
   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2') format('woff2');
@@ -82,6 +94,8 @@
   box-sizing: border-box;
   /* font-family: 'YUniverse-B'; */
   font-family: 'NanumSquare', sans-serif;
+  justify-content: center;
+  align-items: center;
 }
 
 
