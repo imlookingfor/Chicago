@@ -6,7 +6,7 @@ export default function Header() { // -> import Header
   return(
     <header>
       <div>
-        <img src={logoImg}/>
+        {/* <img src={logoImg}/> */}
         <p>
           신사 숙녀 여러분! 환영합니다.
         </p>
