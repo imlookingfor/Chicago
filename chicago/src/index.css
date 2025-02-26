@@ -99,22 +99,17 @@
 }
 
 
-body {
+html, body {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-
-html {
-  line-height: 1.5;
   color: black;
   background: black;
-  height: 100vh; 
-
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  overflow-y: auto;
 }
 
 
@@ -237,12 +232,10 @@ section {
   padding: 1rem;
   color: white;
   font-size: large;
-  font-family: ;
   background-color: red;
   border: none;
   border-radius: 0.2rem;
   font-family: 'YUniverse-B';
-
 }
 
 
