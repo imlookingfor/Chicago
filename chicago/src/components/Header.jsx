@@ -22,7 +22,7 @@ export default function Header() { // -> import Header
         <p>
           감사합니다!
         </p>
-        <h1>All that Jazz</h1>
+        <h1>All that Crime</h1>
       </div>
     </header>
   )
