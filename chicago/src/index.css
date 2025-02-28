@@ -8,10 +8,7 @@
   header {
     font-size: 1.5rem;
   }
-
 }
-
-
 
 
 @font-face {
@@ -22,32 +19,12 @@
 }
 
 
-
-
 @font-face {
   font-family: 'Cafe24Lovingu';
   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Lovingu.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
-
-
-
-@font-face {
-  font-family: 'HSBombaram';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSBombaram.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'Hahmlet-Regular';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Hahmlet-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
 
 
 @font-face {
@@ -74,18 +51,16 @@
 }
 
 
-
 * {
   box-sizing: border-box;
-  /* font-family: 'YUniverse-B'; */
   font-family: 'NanumSquareRound', sans-serif;
 }
 
 
 html, body {
-  display: flex;
   color: black;
   background: black;
+  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -101,7 +76,6 @@ h1 {
   font-size: 5rem;
   margin: 0.1rem 2rem;
   padding: 0rem;
-
 }
 
 
@@ -129,7 +103,8 @@ header h1 {
 
 header p {
   margin: 0;
-  font-size: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
   color: red; 
 
 }
@@ -145,7 +120,7 @@ main {
 main h2 {
   font-size: 2.8rem;
   font-family: 'NapjakBlock';
-  text-align: center;
+  /* text-align: center; */
   margin: 0 0 1.8rem 0;
 }
 
@@ -153,7 +128,7 @@ main h2 {
 main h3 {
   font-size: 1.8rem;
   /* font-family: 'TAEBAEKmilkyway'; */
-  text-align: center;
+  /* text-align: center; */
   margin: 0 0 1.5rem 0;
 }
 
@@ -174,12 +149,12 @@ section {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 
 #casts li {
   text-align: center;
+  margin: 1rem;
 }
 
 
@@ -188,7 +163,7 @@ section {
   max-width: 10rem;
   max-height: 10rem;
   border-radius: 0.5rem;
-  object-fit: fill; 
+  object-fit: cover; 
   /* object-fit: cover; 콘텐츠의 가로세로 비율을 유지하여 보여줌 (일일이 px값 조정할 필요 없음) 다만 cover의 경우 이미지가 잘릴 수 있다. */
 }
 
@@ -231,9 +206,9 @@ section {
   background-color: white;
   border: solid;
   border-color: black;
-  border-radius: 6px;
+  border-radius: 0.5rem;
   color: black;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
