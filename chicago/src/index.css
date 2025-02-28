@@ -100,6 +100,14 @@
 }
 
 
+@font-face {
+  font-family: 'Danjo-bold-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Danjo-bold-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 * {
   box-sizing: border-box;
   /* font-family: 'YUniverse-B'; */
@@ -177,7 +185,7 @@ main h2 {
 
 main h3 {
   font-size: 2rem;
-  font-family: 'SBAggroB';
+  font-family: 'Danjo-bold-Regular';
   text-align: center;
   margin: 0 0 1.5rem 0;
 }
