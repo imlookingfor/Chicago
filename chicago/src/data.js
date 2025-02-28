@@ -156,6 +156,11 @@ export const Ensembles = [
     image: billy2
   },
   {
+    name: "송하빈",
+    text: "그게바로접니다",
+    image: billy2
+  },
+  {
     name: "난이제지쳤어요",
     text: "땡벌땡벌",
     image: billy3

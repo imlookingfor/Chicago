@@ -62,10 +62,7 @@ function App() {
           </ul>
           <h2>앙상블</h2>
           <ul>
-            <Casts {...Ensembles[0]}/>
-            <Casts {...Ensembles[1]}/>
-            <Casts {...Ensembles[2]}/>
-            <Casts {...Ensembles[3]}/>
+            {Ensembles.map((item, i) => <li>{item}</li>)}
           </ul>          
         </section>
 
