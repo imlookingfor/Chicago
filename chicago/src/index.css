@@ -138,9 +138,6 @@ section {
   background-color: white;
   color: black;
   margin-bottom: 5rem;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 
 
@@ -156,12 +153,9 @@ section {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
-}
-
-
-#casts li {
   text-align: center;
-  margin: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
 
