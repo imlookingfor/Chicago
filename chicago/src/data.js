@@ -21,7 +21,7 @@ export const Velmas = [
     image: velma1
   },
   {
-    name: "지현",
+    name: "변지현",
     text: "좋아하는 대사를",
     image: velma2
   },
@@ -159,11 +159,6 @@ export const Ensembles = [
     name: "송하빈",
     text: "그게바로접니다",
     image: billy2
-  },
-  {
-    name: "난이제지쳤어요",
-    text: "땡벌땡벌",
-    image: billy3
   },
 ]
 
