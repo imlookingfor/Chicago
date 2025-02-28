@@ -120,7 +120,7 @@ export const Ensembles = [
     image: billy1
   },
   {
-    name: "김민규",
+    name: "정민규",
     text: "똘비 아부지",
     image: billy3
   },
