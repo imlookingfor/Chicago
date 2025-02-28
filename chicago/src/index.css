@@ -199,20 +199,19 @@ section {
 
 
 #dateBtn button {
-  background-color: white;
-  border: solid;
-  border-color: black;
+  background-color: red;
+  border: none;
   border-radius: 0.5rem;
-  color: black;
+  color: white;
   font-size: 1rem;
   cursor: pointer;
+  padding: 0.5rem;
 }
 
 
 #dateBtn button:hover {
-  background-color: #6086cb;
-  color: white;
-  box-shadow: 0 2px 8px rgb(33, 84, 167);
+  padding: 0.7rem;
+  font-size: 1.2rem;
 }
 
 
