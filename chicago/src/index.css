@@ -201,7 +201,7 @@ main h3 {
 
 section {
   padding: 3rem;
-  border-radius: 10px;
+  border-radius: 0.8rem;
   background-color: white;
   color: black;
   margin-bottom: 5rem;
@@ -211,7 +211,7 @@ section {
 #casts ul {
   list-style: none;
   padding: 0;
-  margin-bottom: 100px;
+  margin-bottom: 9rem;
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
@@ -233,12 +233,6 @@ section {
   border-radius: 0.5rem;
   object-fit: cover; 
   /* object-fit: cover; 콘텐츠의 가로세로 비율을 유지하여 보여줌 (일일이 px값 조정할 필요 없음) 다만 cover의 경우 이미지가 잘릴 수 있다. */
-}
-
-
-#casts li h3 {
-  margin: 0.5rem 0;
-
 }
 
 
