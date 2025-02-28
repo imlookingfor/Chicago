@@ -216,20 +216,14 @@ section {
   gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
-
-}
-
-
-#casts li {
-  width: 10rem;
-  text-align: center;
+  align-items: center;
 }
 
 
 #casts li img {
   margin: 1rem;
   max-width: 10rem;
-  height: 10rem;
+  max-height: 10rem;
   border-radius: 0.5rem;
   object-fit: cover; 
   /* object-fit: cover; 콘텐츠의 가로세로 비율을 유지하여 보여줌 (일일이 px값 조정할 필요 없음) 다만 cover의 경우 이미지가 잘릴 수 있다. */
@@ -263,6 +257,7 @@ section {
   margin: 0;
   gap: 3em;
 }
+
 
 #dateBtn li {
   list-style: none;
