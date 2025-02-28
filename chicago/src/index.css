@@ -195,7 +195,6 @@ main h3 {
   font-size: 1.8rem;
   font-family: 'Hahmlet-Regular';
   text-align: center;
-  margin: 0 0 1.5rem 0;
 }
 
 
@@ -223,11 +222,12 @@ section {
 #casts li {
   width: 10rem;
   text-align: center;
+  margin: 1rem;
 }
 
 
 #casts li img {
-  margin: 10px;
+  margin: 1rem 0;
   max-width: 10rem;
   height: 10rem;
   border-radius: 0.5rem;
