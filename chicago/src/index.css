@@ -108,6 +108,14 @@
 }
 
 
+@font-face {
+  font-family: 'NEXON Lv1 Gothic OTF';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 * {
   box-sizing: border-box;
   /* font-family: 'YUniverse-B'; */
@@ -185,15 +193,14 @@ main h2 {
 
 main h3 {
   font-size: 2rem;
-  font-family: 'Danjo-bold-Regular';
+  font-family: 'NEXON Lv1 Gothic OTF';
   text-align: center;
   margin: 0 0 1.5rem 0;
 }
 
 
 main p {
-  font-size: 1rem;
-
+  font-size: 1.5rem;
 
 }
 
