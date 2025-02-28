@@ -1,4 +1,4 @@
-import logoImg from "../assets/jazzinprison.png"
+import logoImg from "../assets/jazzinprison2.png"
 
 
 export default function Header() { // -> import Header
