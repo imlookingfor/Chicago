@@ -1,4 +1,4 @@
-import logoImg from "../assets/allthatcrime2.png"
+import logoImg from "../assets/jazzinprison.png"
 
 
 export default function Header() { // -> import Header
@@ -22,7 +22,7 @@ export default function Header() { // -> import Header
         <p>
           감사합니다!
         </p>
-        <h1>Jazz in Crime</h1>
+        {/* <h1>Jazz in Crime</h1> */}
       </div>
     </header>
   )

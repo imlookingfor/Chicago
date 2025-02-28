@@ -92,6 +92,14 @@
 }
 
 
+@font-face {
+  font-family: 'SBAggroB';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 * {
   box-sizing: border-box;
   /* font-family: 'YUniverse-B'; */
@@ -160,7 +168,7 @@ main {
 
 
 main h2 {
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-family: 'NapjakBlock';
   text-align: center;
   margin: 0 0 1.5rem 0;
@@ -169,9 +177,16 @@ main h2 {
 
 main h3 {
   font-size: 2rem;
-  font-family: 'NapjakBlock';
+  font-family: 'SBAggroB';
   text-align: center;
   margin: 0 0 1.5rem 0;
+}
+
+
+main p {
+  font-size: 1rem;
+
+
 }
 
 
