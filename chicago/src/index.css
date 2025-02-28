@@ -171,6 +171,7 @@ section {
 
 #casts li p {
   font-size: 1.2rem;
+  max-width: 10rem;
 }
 
 
