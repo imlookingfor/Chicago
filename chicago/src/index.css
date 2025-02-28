@@ -103,7 +103,7 @@ header h1 {
 
 header p {
   margin: 0;
-  padding: 1rem;
+  padding: 0 1rem;
   font-size: 1.2rem;
   color: red; 
 
@@ -139,6 +139,16 @@ section {
   background-color: white;
   color: black;
   margin-bottom: 5rem;
+}
+
+
+#synopsis {
+  font-size: 1.2rem;
+}
+
+
+#casts {
+  text-align: center;
 }
 
 
