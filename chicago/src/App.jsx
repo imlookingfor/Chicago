@@ -8,6 +8,7 @@ import Casts from "./components/Casts"
 import Directors from "./components/Directors";
 import Reservation from "./components/Reservation";
 import Location from "./components/Location";
+import Introduce from "./components/Introduce";
 
 
 function App() {
@@ -76,6 +77,7 @@ function App() {
               <Directors {...DIRECTORS[1]}/>
               <Directors {...DIRECTORS[2]}/>
               <Directors {...DIRECTORS[3]}/>
+              <Directors {...DIRECTORS[4]}/>
             </ul>   
         </section>
 
@@ -92,7 +94,6 @@ function App() {
               <li><button onClick={() => setSelectedDate("secondDay")}>4월 20일</button></li>
             </ul>
           </menu>
-        
           <h2>{SCHEDULE[selectedDate].date}</h2>
           <p>{SCHEDULE[selectedDate].table}</p>
         </section>
@@ -104,11 +105,7 @@ function App() {
 
         <h1>Introduce</h1>
         <section id="amuse-intro">
-          <div>
-            <h2>어뮤즈 AMUSE</h2>
-            <p>미소 짓게 하다 라는 뜻을 가지고 있는 일반인 취미 뮤지컬 단체입니다. 실제로 어뮤즈를 발음해 보시면 미소를 짓게 됩니다. 많관부.</p>
-            <p>인스타 아이디 이거구요 소모임으로 가입하시고 궁금한점은 어디어디로 문의하세요</p>
-          </div>
+          <Introduce/>
         </section>
         <div id="hidden-div"></div>
         <div id="hidden-div"></div>

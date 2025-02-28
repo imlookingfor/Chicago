@@ -120,14 +120,41 @@ export const Ensembles = [
     image: billy1
   },
   {
+    name: "김민규",
+    text: "똘비 아부지",
+    image: billy3
+  },
+  {
     name: "망사 연재",
     text: "가자",
     image: billy2
   },
+
   {
-    name: "김민규",
-    text: "똘비 아부지",
-    image: billy3
+    name: "안제민",
+    text: "제라드",
+    image: billy2
+  },
+
+  {
+    name: "최민혁",
+    text: "에반이었던분",
+    image: billy2
+  },
+  {
+    name: "신정윤",
+    text: "에반이랑뽀뽀했대요",
+    image: billy2
+  },
+  {
+    name: "이종민",
+    text: "태권도100단",
+    image: billy2
+  },
+  {
+    name: "정동현",
+    text: "엠티에서딱한번뵌분",
+    image: billy2
   },
   {
     name: "난이제지쳤어요",
@@ -147,13 +174,20 @@ export const DIRECTORS = [
     name: "김도현",
     role: "음악 감독",
     image: billy2
-  },  {
+  },  
+  {
     name: "이요한",
     role: "안무 감독",
     image: billy3
-  },  {
+  },  
+  {
     name: "김경민",
     role: "조연출",
+    image: billy3
+  },
+  {
+    name: "안제민",
+    role: "감독 총괄(?)",
     image: billy3
   },
 ]
