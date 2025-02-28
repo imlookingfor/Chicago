@@ -62,7 +62,7 @@ function App() {
           </ul>
           <h2>앙상블</h2>
           <ul>
-            {Ensembles.map((item, i) => <li>{item}</li>)}
+            {Ensembles.map((item, i) => <li><Casts {...item}/></li>)}
           </ul>          
         </section>
 
