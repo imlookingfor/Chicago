@@ -145,10 +145,11 @@ section {
 #casts ul {
   list-style: none;
   padding: 0;
-  margin: 4.5rem 0;
+  margin: 3rem 0;
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 
@@ -170,11 +171,6 @@ section {
 
 #casts li p {
   font-size: 1.2rem;
-}
-
-
-#hidden-div {
-  padding: 2.6rem;
 }
 
 
@@ -217,4 +213,9 @@ section {
   background-color: #6086cb;
   color: white;
   box-shadow: 0 2px 8px rgb(33, 84, 167);
+}
+
+
+#hidden-div {
+  padding: 2.6rem;
 }
