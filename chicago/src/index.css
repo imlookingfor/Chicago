@@ -230,6 +230,7 @@ section {
   margin: 10px;
   max-width: 10rem;
   height: 10rem;
+  border-radius: 0.5rem;
   object-fit: cover; 
   /* object-fit: cover; 콘텐츠의 가로세로 비율을 유지하여 보여줌 (일일이 px값 조정할 필요 없음) 다만 cover의 경우 이미지가 잘릴 수 있다. */
 }
@@ -285,7 +286,7 @@ section {
 }
 
 
-#examples menu button:hover {
+#dateBtn button:hover {
   background-color: #6086cb;
   color: white;
   box-shadow: 0 2px 8px rgb(33, 84, 167);

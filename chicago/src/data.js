@@ -135,7 +135,6 @@ export const Ensembles = [
     text: "제라드",
     image: billy2
   },
-
   {
     name: "최민혁",
     text: "에반이었던분",
@@ -153,7 +152,7 @@ export const Ensembles = [
   },
   {
     name: "정동현",
-    text: "엠티에서딱한번뵌분",
+    text: "엠티에서한번뵌분",
     image: billy2
   },
   {
