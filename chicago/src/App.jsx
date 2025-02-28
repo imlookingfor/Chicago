@@ -29,37 +29,34 @@ function App() {
         <section id="casts">
           <h2>벨마 켈리</h2>
           <ul>
-            <Casts {...Velmas[0]}/>
-            <Casts {...Velmas[1]}/>
-            <Casts {...Velmas[2]}/>
+            {Velmas.map((item, i) => <li><Casts {...item}/></li>)}
           </ul>
+
           <h2>록시 하트</h2>
           <ul>
-            <Casts {...Roxies[0]}/>
-            <Casts {...Roxies[1]}/>
-            <Casts {...Roxies[2]}/>
+            {Roxies.map((item, i) => <li><Casts {...item}/></li>)}
           </ul>
+
           <h2>빌리 플린</h2>
           <ul>
-            <Casts {...Billys[0]}/>
-            <Casts {...Billys[1]}/>
-            <Casts {...Billys[2]}/>
+            {Billys.map((item, i) => <li><Casts {...item}/></li>)}
           </ul>
+
           <h2>마마 모튼</h2>
           <ul>
-            <Casts {...Mamas[0]}/>
-            <Casts {...Mamas[1]}/>
+            {Mamas.map((item, i) => <li><Casts {...item}/></li>)}
           </ul>
+
           <h2>에이모스 하트</h2>
           <ul>
-            <Casts {...Amos[0]}/>
-            <Casts {...Amos[1]}/>
+            {Amos.map((item, i) => <li><Casts {...item}/></li>)}
           </ul>
+
           <h2>메리 선샤인</h2>
           <ul>
-            <Casts {...Marys[0]}/>
-            <Casts {...Marys[1]}/>
+            {Marys.map((item, i) => <li><Casts {...item}/></li>)}
           </ul>
+
           <h2>앙상블</h2>
           <ul>
             {Ensembles.map((item, i) => <li><Casts {...item}/></li>)}
@@ -70,11 +67,7 @@ function App() {
         <section id="casts">
           <h2>연출진</h2>
             <ul>
-              <Directors {...DIRECTORS[0]}/>
-              <Directors {...DIRECTORS[1]}/>
-              <Directors {...DIRECTORS[2]}/>
-              <Directors {...DIRECTORS[3]}/>
-              <Directors {...DIRECTORS[4]}/>
+              {DIRECTORS.map((item, i) => <li><Directors {...item}/></li>)}
             </ul>   
         </section>
 
